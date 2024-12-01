@@ -34,26 +34,26 @@ export default function Home() {
             <div>
                 <h2 className="text-2xl font-bold mb-4">Notre histoire</h2>
                 <p className="mb-4 leading-loose">
-                    Click & Paf a été fondée en 2022 par deux entrepreneurs passionnés de mode urbaine, Léo et Thomas.
+                    {` Click & Paf a été fondée en 2022 par deux entrepreneurs passionnés de mode urbaine, Léo et Thomas.
                     Leur objectif était clair : offrir une sélection de vêtements tendance et de qualité, tout en
                     restant ancrés dans l’univers de la culture street. La boutique, située dans un quartier dynamique
                     de la ville, se distingue par son ambiance moderne et épurée, où chaque détail est pensé pour
                     refléter l’identité de la marque. Le nom "Click & Paf" symbolise à la fois la rapidité de la mode
-                    actuelle et l'impact immédiat d'un look percutant.
+                    actuelle et l'impact immédiat d'un look percutant.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    Dès son ouverture, Click & Paf s’est rapidement imposée comme une référence grâce à une sélection
+                    {`Dès son ouverture, Click & Paf s’est rapidement imposée comme une référence grâce à une sélection
                     pointue de créateurs locaux et internationaux. Léo et Thomas ont misé sur des collaborations
                     exclusives, des pièces uniques, et des collections en édition limitée, attirant ainsi une clientèle
                     jeune, exigeante et en quête d'originalité. Leur approche se veut résolument moderne, avec un
                     mélange de confort et d’élégance qui plaît à ceux qui recherchent des pièces à la fois stylées et
-                    accessibles.
+                    accessibles.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    Aujourd'hui, Click & Paf continue de se développer, avec un site de vente en ligne qui permet de
+                    {`Aujourd'hui, Click & Paf continue de se développer, avec un site de vente en ligne qui permet de
                     toucher une clientèle plus large tout en restant fidèle à son ADN : une mode urbaine de qualité,
                     innovante et toujours à la pointe des tendances. La boutique est un lieu où la passion pour la mode
-                    se mêle à l’ambition de proposer une expérience d'achat unique et personnalisée.
+                    se mêle à l’ambition de proposer une expérience d'achat unique et personnalisée.`}
                 </p>
             </div>
         </main>
