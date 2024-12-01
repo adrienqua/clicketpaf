@@ -6,6 +6,18 @@ export const metadata: Metadata = {
     title: "Click & Paf, la mode déjantée !",
     description:
         "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+    keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
+    robots: "index, follow",
+    openGraph: {
+        title: "Click & Paf, la mode déjantée !",
+        description:
+            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+    },
+    twitter: {
+        title: "Click & Paf, la mode déjantée !",
+        description:
+            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+    },
 }
 
 export default function Home() {
