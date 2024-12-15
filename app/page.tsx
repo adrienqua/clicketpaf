@@ -1,22 +1,28 @@
 import Image from "next/image"
 
 import type { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = {
-    title: "Click & Paf, la mode déjantée !",
+    title: "Click & Paf - La mode déjantée !",
     description:
-        "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+        "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts et paf !",
     keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
     robots: "index, follow",
     openGraph: {
         title: "Click & Paf, la mode déjantée !",
         description:
-            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts et paf !",
+        images: ["/img/clicketpaf_logo_medium.jpg"],
+        type: "website",
+        url: "https://clicketpaf.store",
     },
     twitter: {
         title: "Click & Paf, la mode déjantée !",
         description:
-            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts... paf !",
+            "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts et paf !",
+        images: ["/img/clicketpaf_logo_medium.jpg"],
+        card: "summary_large_image",
     },
 }
 
@@ -25,7 +31,7 @@ export default function Home() {
         <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px]">
             <h1 className="text-3xl font-bold mb-4">Click & Paf</h1>
             <Image
-                src="/img/placeholder.png"
+                src="/img/clicketpaf_logo_large.jpg"
                 alt="Histoire de Clicketpaf"
                 width={300}
                 height={200}
@@ -55,6 +61,14 @@ export default function Home() {
                     innovante et toujours à la pointe des tendances. La boutique est un lieu où la passion pour la mode
                     se mêle à l’ambition de proposer une expérience d'achat unique et personnalisée.`}
                 </p>
+                <div className="text-center mb-12">
+                    <Link
+                        className="rounded-lg border border-white px-3 py-2 hover:text-black hover:bg-white  transition duration-300 hover:scale-110"
+                        href="/histoire"
+                    >
+                        Voir plus
+                    </Link>
+                </div>
             </div>
         </main>
     )
