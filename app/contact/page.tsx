@@ -63,7 +63,7 @@ export default function Contact() {
                             <textarea
                                 id="message"
                                 name="message"
-                                rows="5"
+                                rows={5}
                                 required
                                 className="mt-1 block w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                             ></textarea>
