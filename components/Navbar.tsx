@@ -17,8 +17,8 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <Link href="/" className="text-xl font-bold text-white">
                             <Image
-                                src="/img/clicketpaf_logo_large.jpg"
-                                alt="Histoire de Clicketpaf"
+                                src="/img/clicketpaf_logo_small.jpg"
+                                alt="Clicketpaf logo"
                                 width={65}
                                 height={90}
                                 className="rounded-lg"
