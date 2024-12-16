@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px]">
+    <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
       <h1 className="text-3xl font-bold mb-4">Click & Paf</h1>
       <Image
         src="/img/clicketpaf_logo_large.jpg"

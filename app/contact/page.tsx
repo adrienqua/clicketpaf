@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px]">
+    <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
       <h2 className="text-3xl font-semibold text-center text-white mb-6">
         Nous contacter
       </h2>
