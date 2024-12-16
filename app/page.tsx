@@ -103,7 +103,7 @@ export default function Home() {
                 </p>
 
                 <p className="mb-4 leading-loose">
-                    <strong className="font-bold">Pourquoi "Click & Paf" ?</strong>
+                    <strong className="font-bold">{`Pourquoi "Click & Paf" ?`}</strong>
                     <br />
                     {
                         "Le nom représente la vitesse avec laquelle la mode évolue aujourd'hui et l'impact immédiat qu'un look percutant peut avoir. C’est rapide, c’est net, et ça fait le buzz !"
@@ -151,20 +151,20 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row gap-4 justify-center">
                     <div className="bg-black p-4 rounded-lg w-full md:w-1/3 border-2 border-gray-400">
                         <p className="italic">
-                            "J'ai acheté un t-shirt de la dernière collection et je suis tellement content de mon achat
-                            ! Qualité au top et design unique."
+                            {`"J'ai acheté un t-shirt de la dernière collection et je suis tellement content de mon achat
+                            ! Qualité au top et design unique."`}
                         </p>
                         <p className="font-semibold mt-2">- Maxime D.</p>
                     </div>
                     <div className="bg-black p-4 rounded-lg w-full md:w-1/3 border-2 border-gray-400">
                         <p className="italic">
-                            "La livraison a été rapide, et le service client est super réactif. Je recommande à 100% !"
+                            {`"La livraison a été rapide, et le service client est super réactif. Je recommande à 100% !"`}
                         </p>
                         <p className="font-semibold mt-2">- Clara M.</p>
                     </div>
                     <div className="bg-black p-4 rounded-lg w-full md:w-1/3 border-2 border-gray-400">
                         <p className="italic">
-                            "Les collections en édition limitée sont vraiment cool, j'ai hâte de voir les prochaines !"
+                            {`"Les collections en édition limitée sont vraiment cool, j'ai hâte de voir les prochaines !"`}
                         </p>
                         <p className="font-semibold mt-2">- Thomas L.</p>
                     </div>
