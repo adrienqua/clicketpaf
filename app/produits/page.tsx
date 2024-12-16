@@ -6,7 +6,7 @@ import ProductCard from "@/components/products/ProductCard";
 export const metadata: Metadata = {
   title: "Click & Paf - Nos drops",
   description:
-    "Click & Paf, c’est l’histoire d’une mode qui claque : des pièces limitées, un style urbain affûté, et des valeurs qui comptent. De l’actu aux tendances, on capte l’instant pour créer une vibe unique. Prêt à porter du vrai, du rare, du toi ?",
+    "Découvrez nos vêtements en édition limitée, inspirés par l'actu et les tendances du moment. Style unique, engagé et audacieux pour une jeunesse qui ose se démarquer. Ne manquez pas nos créations exclusives, disponibles pour un temps limité !",
   keywords: [
     "clicketpaf",
     "click & paf",
