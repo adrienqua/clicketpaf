@@ -30,7 +30,7 @@ const Navbar = () => {
               Accueil
             </Link>
             <Link href="/produits" className="text-gray-300 hover:text-white">
-              Accueil
+              Produits
             </Link>
             <Link href="/histoire" className="text-gray-300 hover:text-white">
               Notre histoire
@@ -77,7 +77,7 @@ const Navbar = () => {
             href="/produits"
             className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white"
           >
-            Nos produits
+            Produits
           </Link>
           <Link
             href="/histoire"
