@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         url: "/img/clicketpaf_logo_medium.jpg",
         width: 600,
         height: 400,
-        alt: "My custom alt",
+        alt: "Click & Paf - la mode déjantée !",
       },
     ],
     type: "website",
