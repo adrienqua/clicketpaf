@@ -3,13 +3,7 @@ import Image from "next/image"
 import type { Metadata } from "next"
 import Link from "next/link"
 
-export const metadata: Metadata = {
-    title: "Click & Paf - La mode déjantée !",
-    description:
-        "Bienvenue sur Click & Paf, l'appli où la mode rencontre l'imprévu et l'originalité ! Explorez une plateforme ludique qui révolutionne votre style avec des tendances dingues. À vos clics, prêts et paf !",
-    keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
-    robots: "index, follow",
-}
+export const metadata: Metadata = {}
 
 export default function Home() {
     return (
