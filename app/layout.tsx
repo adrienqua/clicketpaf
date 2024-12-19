@@ -16,13 +16,13 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-    title: "Click & Paf - La mode déjantée !",
+    title: "Clicketpaf - La mode déjantée !",
     description:
         "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
     keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
     robots: "index, follow",
     openGraph: {
-        title: "Click & Paf - la mode déjantée !",
+        title: "Clicketpaf - la mode déjantée !",
         description:
             "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
         images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://clicketpaf.store",
     },
     twitter: {
-        title: "Click & Paf - la mode déjantée !",
+        title: "Clicketpaf - la mode déjantée !",
         description:
             "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
         images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "My custom alt",
+                alt: "Click & Paf - la mode déjantée !",
             },
         ],
         card: "summary_large_image",

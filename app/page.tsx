@@ -8,7 +8,7 @@ export const metadata: Metadata = {}
 export default function Home() {
     return (
         <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
-            <h1 className="text-3xl font-bold mb-4">Click & Paf</h1>
+            <h1 className="text-3xl font-bold mb-4">ClicketPaf</h1>
             <Image
                 src="/img/clicketpaf_logo_large.jpg"
                 alt="Histoire de Clicketpaf"
@@ -19,15 +19,15 @@ export default function Home() {
             <div>
                 <h2 className="text-2xl font-bold mb-4">Notre histoire</h2>
                 <p className="mb-4 leading-loose">
-                    {` Click & Paf a été fondée en 2022 par deux entrepreneurs passionnés de mode urbaine, Léo et Thomas.
+                    {` Clicketpaf a été fondée en 2022 par deux entrepreneurs passionnés de mode urbaine, Léo et Thomas.
                     Leur objectif était clair : offrir une sélection de vêtements tendance et de qualité, tout en
                     restant ancrés dans l’univers de la culture street. La boutique, située dans un quartier dynamique
                     de la ville, se distingue par son ambiance moderne et épurée, où chaque détail est pensé pour
-                    refléter l’identité de la marque. Le nom "Click & Paf" symbolise à la fois la rapidité de la mode
+                    refléter l’identité de la marque. Le nom "Clicketpaf" symbolise à la fois la rapidité de la mode
                     actuelle et l'impact immédiat d'un look percutant.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Dès son ouverture, Click & Paf s’est rapidement imposée comme une référence grâce à une sélection
+                    {`Dès son ouverture, Clicketpaf s’est rapidement imposée comme une référence grâce à une sélection
                     pointue de créateurs locaux et internationaux. Léo et Thomas ont misé sur des collaborations
                     exclusives, des pièces uniques, et des collections en édition limitée, attirant ainsi une clientèle
                     jeune, exigeante et en quête d'originalité. Leur approche se veut résolument moderne, avec un
@@ -35,7 +35,7 @@ export default function Home() {
                     accessibles.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Aujourd'hui, Click & Paf continue de se développer, avec un site de vente en ligne qui permet de
+                    {`Aujourd'hui, Clicketpaf continue de se développer, avec un site de vente en ligne qui permet de
                     toucher une clientèle plus large tout en restant fidèle à son ADN : une mode urbaine de qualité,
                     innovante et toujours à la pointe des tendances. La boutique est un lieu où la passion pour la mode
                     se mêle à l’ambition de proposer une expérience d'achat unique et personnalisée.`}
@@ -53,7 +53,7 @@ export default function Home() {
                             />
                             <h3 className="text-lg font-bold mb-2 text-gray-300">Francois Bayrou premier ministre</h3>
                             <p className="mb-2 text-gray-300 leading-loose">
-                                {`Click & Paf lance une collection décalée de t-shirts et mugs exclusifs pour célébrer la nomination de François Bayrou comme Premier ministre. 
+                                {`Clicketpaf lance une collection décalée de t-shirts et mugs exclusifs pour célébrer la nomination de François Bayrou comme Premier ministre. 
                                 Avec des designs funs et vintage, la marque transforme l’actualité en mode, pour afficher son humour et son style.`}
                             </p>
                             <Link href="/blog/article1" className="text-blue-500 hover:underline">
@@ -73,7 +73,7 @@ export default function Home() {
                             </h3>
                             <p className="mb-2 text-gray-300 leading-loose">
                                 {
-                                    "Click & Paf lance une collection exclusive inspirée d'Emmanuel Macron faisant du dauphin sur la Seine, avec des t-shirts, mugs et tote bags en édition limitée. Des produits fun et stylés pour adopter la vibe présidentielle avec originalité !"
+                                    "Clicketpaf lance une collection exclusive inspirée d'Emmanuel Macron faisant du dauphin sur la Seine, avec des t-shirts, mugs et tote bags en édition limitée. Des produits fun et stylés pour adopter la vibe présidentielle avec originalité !"
                                 }
                             </p>
                             <Link href="/blog/article2" className="text-blue-500 hover:underline">
@@ -86,18 +86,18 @@ export default function Home() {
 
             <div className="rounded-lg bg-black p-4 mb-8">
                 <h1 className="font-bold text-2xl mb-4 text-center">
-                    FAQ – Tout ce que vous devez savoir sur Click & Paf !
+                    FAQ – Tout ce que vous devez savoir sur Clicketpaf !
                 </h1>
 
                 <p className="mb-4 leading-loose">
                     <strong className="font-bold">Qui sommes-nous ?</strong> <br />
                     {
-                        "Click & Paf, c’est Léo et Thomas, deux passionnés de mode urbaine. Depuis 2022, on vous propose des vêtements tendance, stylés, et de qualité. Notre objectif ? Vous offrir des pièces uniques qui envoient du lourd, toujours à la pointe de la culture street !"
+                        "Clicketpaf, c’est Léo et Thomas, deux passionnés de mode urbaine. Depuis 2022, on vous propose des vêtements tendance, stylés, et de qualité. Notre objectif ? Vous offrir des pièces uniques qui envoient du lourd, toujours à la pointe de la culture street !"
                     }
                 </p>
 
                 <p className="mb-4 leading-loose">
-                    <strong className="font-bold">{`Pourquoi "Click & Paf" ?`}</strong>
+                    <strong className="font-bold">{`Pourquoi "Clicketpaf" ?`}</strong>
                     <br />
                     {
                         "Le nom représente la vitesse avec laquelle la mode évolue aujourd'hui et l'impact immédiat qu'un look percutant peut avoir. C’est rapide, c’est net, et ça fait le buzz !"
