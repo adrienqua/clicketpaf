@@ -19,27 +19,25 @@ export default function Home() {
             <div>
                 <h2 className="text-2xl font-bold mb-4">Notre histoire</h2>
                 <p className="mb-4 leading-loose">
-                    {` Clicketpaf a été fondée en 2022 par deux entrepreneurs passionnés de mode urbaine, Léo et Thomas.
-                    Leur objectif était clair : offrir une sélection de vêtements tendance et de qualité, tout en
-                    restant ancrés dans l’univers de la culture street. La boutique, située dans un quartier dynamique
-                    de la ville, se distingue par son ambiance moderne et épurée, où chaque détail est pensé pour
-                    refléter l’identité de la marque. Le nom "Clicketpaf" symbolise à la fois la rapidité de la mode
-                    actuelle et l'impact immédiat d'un look percutant.`}
+                    {`Fondée en 2022 par Léo et Thomas, deux passionnés de mode street, Clicketpaf, c’est l’histoire d’une idée simple mais percutante : des vêtements en édition limitée, inspirés par l’actu et les tendances les plus fraîches. Notre concept ? Attraper l’essence du moment et la transformer en pièces qui claquent. Le nom "Clicketpaf" dit tout : un clic, et paf, t’as ton look.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Dès son ouverture, Clicketpaf s’est rapidement imposée comme une référence grâce à une sélection
-                    pointue de créateurs locaux et internationaux. Léo et Thomas ont misé sur des collaborations
-                    exclusives, des pièces uniques, et des collections en édition limitée, attirant ainsi une clientèle
-                    jeune, exigeante et en quête d'originalité. Leur approche se veut résolument moderne, avec un
-                    mélange de confort et d’élégance qui plaît à ceux qui recherchent des pièces à la fois stylées et
-                    accessibles.`}
+                    {`Dès le départ, on a misé sur l’originalité à 100%. Collaborations exclusives, pièces uniques, drops inattendus... Chez nous, chaque vêtement raconte une histoire et s’adresse à ceux qui veulent porter quelque chose de vrai, de rare, et surtout qui leur ressemble. On parle aux esprits curieux, aux amateurs de style qui veulent du neuf sans compromis.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Aujourd'hui, Clicketpaf continue de se développer, avec un site de vente en ligne qui permet de
-                    toucher une clientèle plus large tout en restant fidèle à son ADN : une mode urbaine de qualité,
-                    innovante et toujours à la pointe des tendances. La boutique est un lieu où la passion pour la mode
-                    se mêle à l’ambition de proposer une expérience d'achat unique et personnalisée.`}
+                    {`Aujourd’hui, Clicketpaf, c’est bien plus qu’une boutique : c’est un mood, une communauté, un rendez-vous pour tous ceux qui aiment se démarquer avec du sens. Avec notre shop en ligne, on touche la vibe d’une génération connectée, sans perdre notre truc : proposer une mode urbaine, qualitative et toujours en mouvement. Chez Clicketpaf, on ne suit pas les tendances, on les crée et on les laisse parler pour toi.`}
                 </p>
+
+                <div className="text-center mb-12">
+                    <Link
+                        rel="canonical"
+                        className="rounded-lg border border-white px-3 py-2 hover:text-black hover:bg-white  transition duration-300 hover:scale-110"
+                        href="/histoire"
+                    >
+                        Voir plus
+                    </Link>
+                </div>
+
                 <div className="rounded-lg bg-black p-4 mb-8">
                     <h2 className="text-2xl font-bold mb-4 text-center">Articles</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -164,15 +162,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-            <div className="text-center mb-12">
-                <Link
-                    className="rounded-lg border border-white px-3 py-2 hover:text-black hover:bg-white  transition duration-300 hover:scale-110"
-                    href="/histoire"
-                >
-                    Voir plus
-                </Link>
-            </div>
         </main>
     )
 }
