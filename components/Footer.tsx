@@ -4,7 +4,11 @@ import Link from "next/link"
 const Footer = () => {
     return (
         <footer className="w-full text-center p-4 bg-amber-100/80 text-amber-800/80 mt-8" role="contentinfo">
-            <nav role="navigation" aria-label="Footer navigation" className="flex justify-center gap-8 mb-4">
+            <nav
+                role="navigation"
+                aria-label="Footer navigation"
+                className="flex flex-col md:flex-row justify-center gap-8 mb-4"
+            >
                 <div>
                     <h2 className="font-medium">Réseaux sociaux</h2>
                     <ul className="flex gap-4 justify-center">
