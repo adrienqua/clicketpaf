@@ -28,21 +28,21 @@ export default function ProductDetails() {
         price: 24.9,
     }
     return (
-        <div className="flex flex-col items-center px-4  max-w-[800px] mx-auto">
-            <div className="flex  gap-8">
+        <div className="flex flex-col items-center max-w-[1200px] mx-auto ">
+            <div className="flex  gap-12 rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
                 <div className="w-3/5">
                     <Image
                         src="/img/clicketpaf_logo_large.jpg"
                         alt="Histoire de Clicketpaf"
                         width={600}
                         height={400}
-                        className="rounded-lg mb-8"
+                        className="rounded-lg w-full"
                     />
                 </div>
                 <div className="w-2/5">
                     <h1 className="text-3xl font-bold mb-6">{product.title}</h1>
                     <p className="font-semibold">{product.description}</p>
-                    <p className="font-normal text-gray-300">{product.price.toFixed(2)} €</p>
+                    <p className="font-normal text-indigo-600 mt-2">{product.price.toFixed(2)} €</p>
                 </div>
             </div>
         </div>

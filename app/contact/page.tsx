@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 
 export default function Contact() {
     return (
-        <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
-            <h2 className="text-3xl font-semibold text-center text-white mb-6">Nous contacter</h2>
-            <div className="min-w-full sm:min-w-[450px] mx-auto p-6 rounded-lg shadow-md">
+        <main className="flex flex-col container mx-auto items-center max-w-[800px] p-8 rounded-3xl shadow-md bg-amber-100/35">
+            <h2 className="text-3xl font-bold text-center mb-6">Nous contacter</h2>
+            <div className="min-w-full sm:min-w-[450px] mx-auto p-6 rounded-lg ">
                 <form action="#" method="POST">
                     <div className="space-y-4">
                         <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-300">
+                            <label htmlFor="name" className="block text-sm font-medium text-gray-800">
                                 Votre nom
                             </label>
                             <input
@@ -23,12 +23,12 @@ export default function Contact() {
                                 id="name"
                                 name="name"
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 border   text-white rounded-xl shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                             />
                         </div>
 
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-300">
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-800">
                                 Votre adresse email
                             </label>
                             <input
@@ -36,12 +36,12 @@ export default function Contact() {
                                 id="email"
                                 name="email"
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 border   text-white rounded-xl shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                             />
                         </div>
 
                         <div>
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-300">
+                            <label htmlFor="message" className="block text-sm font-medium text-gray-800">
                                 Votre message
                             </label>
                             <textarea
@@ -49,14 +49,14 @@ export default function Contact() {
                                 name="message"
                                 rows={5}
                                 required
-                                className="mt-1 block w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                                className="mt-1 block w-full px-4 py-2 border   text-white rounded-xl shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                             ></textarea>
                         </div>
 
                         <div>
                             <button
                                 type="submit"
-                                className="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                className="w-full py-2 px-4 bg-indigo-600 text-white font-medium rounded-xl hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                             >
                                 Envoyer le Message
                             </button>

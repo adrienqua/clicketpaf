@@ -1,18 +1,16 @@
 import type { Metadata } from "next"
-import localFont from "next/font/local"
 import "./globals.css"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
+import { Poppins, Montserrat } from "next/font/google"
 
-const geistSans = localFont({
-    src: "./fonts/GeistVF.woff",
-    variable: "--font-geist-sans",
-    weight: "100 900",
-})
-const geistMono = localFont({
-    src: "./fonts/GeistMonoVF.woff",
-    variable: "--font-geist-mono",
-    weight: "100 900",
+const poppins = Poppins({ weight: ["400", "500", "600", "700"], subsets: ["latin"], display: "swap" })
+const montserrat = Montserrat({
+    weight: ["400", "800"],
+    subsets: ["latin"],
+    display: "swap",
+    variable: "--font-montserrat",
 })
 
 export const metadata: Metadata = {
@@ -59,9 +57,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="fr">
-            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+            <body
+                className={`${poppins.className} ${montserrat.variable} antialiased  #bg-[#0a0a0a] #text-gray-200 #bg-indigo-50/20 #text-black bg-amber-50/25 min-h-screen flex flex-col`}
+            >
                 <Navbar />
-                {children}
+                <main className="mt-32 flex-grow">{children}</main>
+                <Footer />
             </body>
             <GoogleAnalytics gaId="G-9MY3MYGXL9" />
         </html>

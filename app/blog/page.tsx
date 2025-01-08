@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Blog() {
     return (
-        <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
+        <main className="flex flex-col container mx-auto items-center max-w-[800px] rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
             <h1 className="text-3xl font-bold mb-4">Blog</h1>
             <article>
                 <h1 className="font-bold text-2xl mb-4">

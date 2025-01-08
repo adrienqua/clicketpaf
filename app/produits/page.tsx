@@ -22,34 +22,36 @@ export const metadata: Metadata = {
 
 export default function Product() {
     return (
-        <div className="flex flex-col items-center px-4">
-            <h1 className="text-3xl font-bold mb-10">Nos drops en édition limitée</h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                <ProductCard
-                    title="T-shirt françois Bayrou"
-                    price={24.9}
-                    imageUrl="/img/clicketpaf_logo_large.jpg"
-                    imageAlt="Histoire de Clicketpaf"
-                />
-                <ProductCard
-                    title="Hoodie françois Bayrou"
-                    price={59.9}
-                    imageUrl="/img/clicketpaf_logo_large.jpg"
-                    imageAlt="Histoire de Clicketpaf"
-                />
-                <ProductCard
-                    title="Tasse François Bayrou"
-                    price={14.9}
-                    imageUrl="/img/clicketpaf_logo_large.jpg"
-                    imageAlt="Histoire de Clicketpaf"
-                />
-                <ProductCard
-                    title="Produit top cool 4"
-                    price={59.9}
-                    imageUrl="/img/clicketpaf_logo_large.jpg"
-                    imageAlt="Histoire de Clicketpaf"
-                />
+        <main className="flex flex-col items-center max-w-[1200px] mx-auto ">
+            <div className="flex flex-col items-center rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
+                <h1 className="text-3xl font-bold mb-10">Nos drops en édition limitée</h1>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    <ProductCard
+                        title="T-shirt françois Bayrou"
+                        price={24.9}
+                        imageUrl="/img/clicketpaf_logo_large.jpg"
+                        imageAlt="Histoire de Clicketpaf"
+                    />
+                    <ProductCard
+                        title="Hoodie françois Bayrou"
+                        price={59.9}
+                        imageUrl="/img/clicketpaf_logo_large.jpg"
+                        imageAlt="Histoire de Clicketpaf"
+                    />
+                    <ProductCard
+                        title="Tasse François Bayrou"
+                        price={14.9}
+                        imageUrl="/img/clicketpaf_logo_large.jpg"
+                        imageAlt="Histoire de Clicketpaf"
+                    />
+                    <ProductCard
+                        title="Produit top cool 4"
+                        price={59.9}
+                        imageUrl="/img/clicketpaf_logo_large.jpg"
+                        imageAlt="Histoire de Clicketpaf"
+                    />
+                </div>
             </div>
-        </div>
+        </main>
     )
 }
