@@ -56,7 +56,7 @@ export default function Contact() {
                         <div>
                             <button
                                 type="submit"
-                                className="w-full py-2 px-4 bg-indigo-600 text-white font-medium rounded-xl hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                className="w-full py-2 px-4 border border-indigo-600 text-indigo-600 hover:text-white font-medium rounded-xl hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                             >
                                 Envoyer le Message
                             </button>
