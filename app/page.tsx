@@ -45,7 +45,11 @@ export default function Home() {
                 <h2 className="text-2xl font-bold mb-4 text-center">Articles</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <Link href="/blog/" className="rounded-lg  ">
+                        <Link
+                            href="/blog/francois-bayrou-nomme-premier-ministre-collection-exclusive-clicketpaf"
+                            className="rounded-lg"
+                            rel="canonical"
+                        >
                             <Image
                                 src="/img/clicketpaf_collab_francois_bayrou_premier_ministre.jpg"
                                 alt="Bayrou Premier ministre"
@@ -60,7 +64,10 @@ export default function Home() {
                                 Avec des designs funs et vintage, la marque transforme l’actualité en mode, pour afficher son humour et son style.`}
                             </p>
                         </Link>
-                        <Link href="/blog/" className="text-indigo-600 hover:underline">
+                        <Link
+                            href="/blog/francois-bayrou-nomme-premier-ministre-collection-exclusive-clicketpaf"
+                            className="text-indigo-600 hover:underline"
+                        >
                             Lire plus
                         </Link>
                     </div>
