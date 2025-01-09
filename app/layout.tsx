@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-    title: "Clicketpaf - Vêtements pour Homme et accessoires de mode",
+    title: "Clicketpaf - Vêtements pour Homme et Accessoires de Mode",
     description:
         "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
     keywords: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
     robots: "index, follow",
     openGraph: {
-        title: "Clicketpaf - Vêtements pour homme et accessoires de mode",
+        title: "Clicketpaf - Vêtements pour homme et Accessoires de Mode",
         description:
             "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: "https://clicketpaf.store",
     },
     twitter: {
-        title: "Clicketpaf - Vêtements pour homme et accessoires de mode",
+        title: "Clicketpaf - Vêtements pour homme et Accessoires de Mode",
         description:
             "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
