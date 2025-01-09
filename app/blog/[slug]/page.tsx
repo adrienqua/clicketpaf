@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
 }
 
-interface Params {
+type ProductParam = {
     slug: string
 }
 
-export default function Product({ params }: { params: Params }) {
-    const { slug } = params
+export default async function Product({ params }: { params: Promise<{ slug: string }> }) {
+    const slug = (await params).slug
     const article = articlesDatas.find((article) => article.slug === slug)
     return (
         <main className="flex flex-col container mx-auto items-center max-w-[800px] rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
