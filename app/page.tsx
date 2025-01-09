@@ -21,18 +21,17 @@ export default function Home() {
                 </div>
                 <h2 className="text-2xl font-bold mb-4 ">Notre histoire</h2>
                 <p className="mb-4 leading-loose">
-                    {`Fondée en 2022 par Léo et Thomas, deux passionnés de mode street, Clicketpaf, c’est l’histoire d’une idée simple mais percutante : des vêtements en édition limitée, inspirés par l’actu et les tendances les plus fraîches. Notre concept ? Attraper l’essence du moment et la transformer en pièces qui claquent. Le nom "Clicketpaf" dit tout : un clic, et paf, t’as ton look.`}
+                    {`Lancée en 2022 par Léo et Thomas, Clicketpaf propose des vêtements en édition limitée inspirés des tendances et de l’actualité streetwear. Chaque pièce capture l’essence du moment et s’adresse à ceux qui recherchent un style unique et authentique.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Dès le départ, on a misé sur l’originalité à 100%. Collaborations exclusives, pièces uniques, drops inattendus... Chez nous, chaque vêtement raconte une histoire et s’adresse à ceux qui veulent porter quelque chose de vrai, de rare, et surtout qui leur ressemble. On parle aux esprits curieux, aux amateurs de style qui veulent du neuf sans compromis.`}
+                    {`Axée sur l’originalité et la qualité, Clicketpaf privilégie le Made in France et des matériaux durables pour allier mode et responsabilité. Nos collections reflètent une vision urbaine et moderne, conçue pour une génération en quête de nouveauté et de sens.`}
                 </p>
                 <p className="mb-4 leading-loose mb-4">
-                    {`Aujourd’hui, Clicketpaf, c’est bien plus qu’une boutique : c’est un mood, une communauté, un rendez-vous pour tous ceux qui aiment se démarquer avec du sens. Avec notre shop en ligne, on touche la vibe d’une génération connectée, sans perdre notre truc : proposer une mode urbaine, qualitative et toujours en mouvement. Chez Clicketpaf, on ne suit pas les tendances, on les crée et on les laisse parler pour toi.`}
+                    {`Plus qu’une marque, Clicketpaf s’engage pour des causes qui comptent. En choisissant nos créations, vous soutenez un projet qui mêle style, éthique et impact positif.`}
                 </p>
 
                 <div className="text-center mt-6">
                     <Link
-                        rel="canonical"
                         className="rounded-2xl border text-indigo-600 border-indigo-600/70 px-3 py-2 hover:text-white hover:bg-indigo-600 font-medium  transition duration-300 hover:scale-110"
                         href="/histoire"
                     >

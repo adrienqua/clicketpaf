@@ -14,36 +14,49 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-    title: "Clicketpaf - La mode déjantée !",
+    title: "Clicketpaf - Vêtements pour Homme et accessoires de mode",
     description:
-        "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
-    keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
+        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
+    keywords: [
+        "clicketpaf",
+        "click & paf",
+        "click",
+        "paf",
+        "mode",
+        "prêt-a-porter",
+        "t-shirt",
+        "sweat",
+        "pull",
+        "tendances",
+        "style",
+        "paf le chien",
+    ],
     robots: "index, follow",
     openGraph: {
-        title: "Clicketpaf - la mode déjantée !",
+        title: "Clicketpaf - Vêtements pour homme et accessoires de mode",
         description:
-            "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
+            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - la mode déjantée !",
+                alt: "Click & Paf - Vêtements pour homme et accessoires de mode",
             },
         ],
         type: "website",
         url: "https://clicketpaf.store",
     },
     twitter: {
-        title: "Clicketpaf - la mode déjantée !",
+        title: "Clicketpaf - Vêtements pour homme et accessoires de mode",
         description:
-            "Clicketpaf c'est des drops chaque semaine de sapes en édition limitée, inspirées de l’actu. Du style, du collector et des vibes uniques. Tu cliques et paf t'as le look !",
+            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - la mode déjantée !",
+                alt: "Click & Paf - Vêtements pour homme et accessoires de mode",
             },
         ],
         card: "summary_large_image",
