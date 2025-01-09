@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 import type { Metadata } from "next"
 import BlogCard from "@/components/blog/BlogCard"
 import { articlesDatas } from "@/datas/articles"
@@ -26,6 +24,7 @@ export default function Blog() {
                             imageAlt={article.mainImgAlt}
                             slug={article.slug}
                             description={article.content[0]}
+                            key={article.id}
                         />
                     ))}
                 </div>

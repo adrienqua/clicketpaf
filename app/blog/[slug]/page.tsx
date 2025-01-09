@@ -30,7 +30,9 @@ export default function Product({ params }: { params: Params }) {
                         className="rounded-lg mb-8"
                     />
                     {article.content.map((content, index) => (
-                        <p className="mb-4 leading-loose">{content}</p>
+                        <p className="mb-4 leading-loose" key={index}>
+                            {content}
+                        </p>
                     ))}
                 </article>
             )}
