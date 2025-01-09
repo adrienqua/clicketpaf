@@ -24,7 +24,10 @@ export default function Product() {
     return (
         <main className="flex flex-col items-center max-w-[1200px] mx-auto ">
             <div className="flex flex-col items-center rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
-                <h1 className="text-3xl font-bold mb-10">Nos drops en édition limitée</h1>
+                <h1 className="text-3xl font-bold mb-2">Nos produits</h1>
+                <h2 className="text-lg font-medium text-gray-600 mb-10">
+                    Découvrez nos drops et nos collaborations en édition limitée
+                </h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <ProductCard
                         title="T-shirt françois Bayrou"

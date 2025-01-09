@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <header role="banner">
             <nav
-                className="bg-white backdrop-blur-lg fixed w-full shadow-sù border-b mb-16 top-0"
+                className="bg-white backdrop-blur-lg fixed w-full  border-b mb-16 top-0"
                 role="navigation"
                 aria-label="Main navigation"
             >
@@ -31,24 +31,28 @@ const Navbar = () => {
                             </Link>
                         </div>
                         <div className="hidden md:flex space-x-6">
-                            <Link href="/" className=" text-gray-800 hover:text-gray-800 font-medium">
+                            <Link href="/" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Accueil
                             </Link>
-                            <Link href="/produits" className=" text-gray-800 hover:text-gray-800 font-medium">
+                            <Link href="/produits" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Produits
                             </Link>
-                            <Link href="/histoire" className=" text-gray-800 hover:text-gray-800 font-medium">
+                            <Link href="/histoire" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Notre histoire
                             </Link>
-                            <Link href="/blog" className=" text-gray-800 hover:text-gray-800 font-medium">
+                            <Link href="/blog" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Blog
                             </Link>
-                            <Link href="/contact" className=" text-gray-800 hover:text-gray-800 font-medium">
+                            <Link href="/contact" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Contact
                             </Link>
                         </div>
                         <div className="md:hidden flex items-center">
-                            <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+                            <button
+                                onClick={toggleMenu}
+                                className="text-gray-800 focus:outline-none"
+                                aria-label="Afficher le menu"
+                            >
                                 <svg
                                     className="w-6 h-6"
                                     fill="none"

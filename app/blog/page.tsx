@@ -1,6 +1,8 @@
 import Image from "next/image"
 
 import type { Metadata } from "next"
+import BlogCard from "@/components/blog/BlogCard"
+import { articlesDatas } from "@/datas/articles"
 
 export const metadata: Metadata = {
     title: "Blog Clicketpaf - Des vêtements instantanés inspirés par l'actu en temps réel",
@@ -10,40 +12,24 @@ export const metadata: Metadata = {
 }
 
 export default function Blog() {
+    const articles = articlesDatas
     return (
-        <main className="flex flex-col container mx-auto items-center max-w-[800px] rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
-            <h1 className="text-3xl font-bold mb-4">Blog</h1>
-            <article>
-                <h1 className="font-bold text-2xl mb-4">
-                    François Bayrou à Matignon : des t-shirts et mugs exclusifs signés Clicketpaf !
-                </h1>
-                <Image
-                    src="/img/clicketpaf_collab_francois_bayrou_premier_ministre.jpg"
-                    alt="Histoire de Clicketpaf"
-                    width={800}
-                    height={400}
-                    className="rounded-lg mb-8"
-                />
-                <p className="mb-4 leading-loose">
-                    {`La nouvelle a fait l’effet d’un séisme : François Bayrou, Premier ministre ! Oui, vous avez bien lu.
-                    L’homme des Pyrénées, champion du consensus et maestro du Modem, s’installe à Matignon. Et chez
-                    Clicketpaf, on ne pouvait pas laisser passer une telle actu sans réagir. Parce que, soyons honnêtes,
-                    François Bayrou, c’est un peu le Chuck Norris de la politique française. Toujours là, discret mais
-                    incontournable, prêt à sortir son lasso pour ramener tout le monde à la raison.`}
-                </p>
-                <p className="mb-4 leading-loose">
-                    {`Pour célébrer ce moment historique, on lance une collection exclusive de
-                    t-shirts et de tasses "François Bayrou, Premier ministre". Des designs décalés, un brin vintage,
-                    pour afficher votre passion pour la politique avec style. Imaginez-vous au bureau, votre mug "Team
-                    Bayrou" à la main, ou en soirée avec un t-shirt "Premier ministre vibes". Clairement, c’est
-                    l’attitude gagnante !`}
-                </p>
-                <p className="mb-4 leading-loose">
-                    {`Attention, ces éditions limitées risquent de partir aussi vite qu’une réforme express. Alors, click
-                    et paf : adoptez François Bayrou dans votre dressing ou votre cuisine, avant qu’il ne soit trop tard
-                    !`}
-                </p>
-            </article>
+        <main className="flex flex-col items-center max-w-[1200px] mx-auto ">
+            <div className="flex flex-col items-center rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
+                <h1 className="text-3xl font-bold mb-2">Blog</h1>
+                <h2 className="text-lg font-medium text-gray-600 mb-10">Suivez l'actualité et nos partenariats </h2>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {articles.map((article) => (
+                        <BlogCard
+                            title={article.title}
+                            imageUrl={article.mainImg}
+                            imageAlt={article.mainImgAlt}
+                            slug={article.slug}
+                            description={article.content[0]}
+                        />
+                    ))}
+                </div>
+            </div>
         </main>
     )
 }
