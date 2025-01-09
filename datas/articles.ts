@@ -57,4 +57,20 @@ export const articlesDatas = [
             `Avec ces tips, ton t-shirt en coton sera prêt à affronter toutes les journées – du brunch stylé au canapé chill. Alors, à toi de jouer : prends soin de tes fringues comme elles prennent soin de ton flow ! Et si tu veux aller encore plus loin, partage ces astuces avec ton entourage. Tes potes et leur dressing te remercieront.`,
         ],
     },
+    {
+        id: 3,
+        category: "Nouveautés",
+        slug: "nouveaux-produits-clicketpaf-collection-urbaine-exclusive",
+        title: "Les nouveaux produits ClicketPaf : la mode urbaine se réinvente !",
+        subtitle: "",
+        mainImg: "/img/nouveaux-produits-clicketpaf.jpg",
+        mainImgAlt: "Nouveaux produits ClicketPaf",
+        content: [
+            `Chez ClicketPaf, l'innovation ne s'arrête jamais ! Cette saison, on dévoile une nouvelle collection pleine de surprises. T-shirts, sweats, accessoires : des créations uniques inspirées par la culture urbaine, pour affirmer votre style et marquer l'instant. Chaque pièce de la collection est un clin d'œil à la street culture et aux tendances du moment, offrant un mélange parfait de confort et d'originalité.`,
+            
+            `Les produits sont pensés pour les vrais passionnés de mode qui aiment se démarquer. Vous retrouverez des designs inédits, parfois décalés, qui captent l'air du temps tout en restant dans l'esprit de la marque. T-shirts aux messages fun, sweats avec des graphiques saisissants, et accessoires stylés qui n'attendent plus que vous.`,
+            
+            `Mais attention, chaque article de cette collection est en édition limitée. Ces créations exclusives risquent de partir aussi vite qu'elles sont arrivées. Alors, ne perdez pas une seconde et foncez découvrir cette nouvelle gamme avant qu'il ne soit trop tard !`
+        ],
+    },
 ]

@@ -75,7 +75,7 @@ export default function RootLayout({
     return (
         <html lang="fr">
             <body
-                className={`${poppins.className} ${montserrat.variable} antialiased  #bg-[#0a0a0a] #text-gray-200 #bg-indigo-50/20 #text-black bg-amber-50/70 min-h-screen flex flex-col`}
+                className={`${poppins.className} ${montserrat.variable} antialiased bg-amber-50/60 min-h-screen flex flex-col`}
             >
                 <Navbar />
                 <main className="mt-32 flex-grow">{children}</main>

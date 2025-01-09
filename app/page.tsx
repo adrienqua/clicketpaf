@@ -3,7 +3,42 @@ import Image from "next/image"
 import type { Metadata } from "next"
 import Link from "next/link"
 
-export const metadata: Metadata = {}
+export const metadata: Metadata = {
+    title: "Clicketpaf – Mode Urbaine et Édition Limitée",
+    description:
+        "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
+    keywords: [
+        "mode urbaine",
+        "édition limitée",
+        "vêtements streetwear",
+        "tendances mode",
+        "Clicketpaf",
+        "vêtements tendance",
+        "mode responsable",
+        "collections exclusives",
+        "t-shirts streetwear",
+        "sweats streetwear",
+        "accessoires mode",
+        "mode éthique",
+        "vêtements Made in France",
+    ],
+    robots: "index, follow",
+    openGraph: {
+        title: "Clicketpaf – Mode Urbaine et Édition Limitée",
+        description:
+            "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
+        images: ["/img/clicketpaf_logo_large.jpg"],
+        type: "website",
+        url: "https://clicketpaf.store",
+    },
+    twitter: {
+        title: "Clicketpaf – Mode Urbaine et Édition Limitée",
+        description:
+            "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
+        images: ["/img/clicketpaf_logo_large.jpg"],
+        card: "summary_large_image",
+    },
+}
 
 export default function Home() {
     return (
@@ -26,7 +61,7 @@ export default function Home() {
                 <p className="mb-4 leading-loose">
                     {`Axée sur l’originalité et la qualité, Clicketpaf privilégie le Made in France et des matériaux durables pour allier mode et responsabilité. Nos collections reflètent une vision urbaine et moderne, conçue pour une génération en quête de nouveauté et de sens.`}
                 </p>
-                <p className="mb-4 leading-loose mb-4">
+                <p className="mb-4 leading-loose">
                     {`Plus qu’une marque, Clicketpaf s’engage pour des causes qui comptent. En choisissant nos créations, vous soutenez un projet qui mêle style, éthique et impact positif.`}
                 </p>
 
@@ -41,9 +76,9 @@ export default function Home() {
             </section>
 
             <section className="mb-12 p-8 rounded-3xl shadow-md bg-amber-100/35">
-                <h2 className="text-2xl font-bold mb-4 text-center">Articles</h2>
+                <h2 className="text-2xl font-bold mb-4 text-center">Nos Derniers Articles</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
+                    <article>
                         <Link
                             href="/blog/francois-bayrou-nomme-premier-ministre-collection-exclusive-clicketpaf"
                             className="rounded-lg"
@@ -69,9 +104,9 @@ export default function Home() {
                         >
                             Lire plus
                         </Link>
-                    </div>
+                    </article>
 
-                    <div>
+                    <article>
                         <Link href="/blog/" className="rounded-lg  ">
                             <Image
                                 src="/img/macron_dauphin_seine.jpg"
@@ -91,7 +126,7 @@ export default function Home() {
                         <Link href="/blog/" className="text-indigo-600 hover:underline">
                             Lire plus
                         </Link>
-                    </div>
+                    </article>
                 </div>
             </section>
 
