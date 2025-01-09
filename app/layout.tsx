@@ -16,18 +16,22 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
     title: "Clicketpaf - Vêtements pour Homme et Accessoires de Mode",
     description:
-        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
+        "Gardez le style avec Clicketpaf. Collaborations exclusives en édition limitée. Made in France, Zéro impact carbone, Paiement sécurisé et Livraison offerte dès 50€.",
     keywords: [
         "clicketpaf",
         "click & paf",
         "click",
         "paf",
         "mode",
+        "vêtements",
+        "garde-robe",
         "prêt-a-porter",
         "t-shirt",
         "sweat",
         "pull",
         "tendances",
+        "collection",
+        "édition limitée",
         "style",
         "paf le chien",
     ],
