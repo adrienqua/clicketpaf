@@ -10,10 +10,6 @@ export const metadata: Metadata = {
     keywords: ["clicketpaf", "click & paf", "click", "paf", "mode", "tendances", "style", "paf le chien"],
 }
 
-type ProductParam = {
-    slug: string
-}
-
 export default async function Product({ params }: { params: Promise<{ slug: string }> }) {
     const slug = (await params).slug
     const article = articlesDatas.find((article) => article.slug === slug)
