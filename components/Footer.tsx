@@ -64,6 +64,16 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
+                    <h2 className="font-medium">Application mobile</h2>
+                    <ul className="flex gap-4 justify-center">
+                        <li>
+                            <Link href="/application_mobile" className=" text-amber-800/80 hover:text-amber-800">
+                                Application
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div>
                     <h2 className="font-medium">Nous contacter</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
