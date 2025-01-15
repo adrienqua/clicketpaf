@@ -57,4 +57,38 @@ export const articlesDatas = [
             `Avec ces tips, ton t-shirt en coton sera prêt à affronter toutes les journées – du brunch stylé au canapé chill. Alors, à toi de jouer : prends soin de tes fringues comme elles prennent soin de ton flow ! Et si tu veux aller encore plus loin, partage ces astuces avec ton entourage. Tes potes et leur dressing te remercieront.`,
         ],
     },
+    {
+        id: 3,
+        category: "lifestyle",
+        slug: "clicketpaf-zero-impact-carbone",
+        title: "Clicketpaf : notre engagement pour un impact carbone égal à zéro",
+        subtitle: "",
+        mainImg: "/img/clicketpaf_sengage_environnement.png",
+        mainImgAlt: "Engagement écologique de Clicketpaf",
+        content: [
+            `Chez Clicketpaf, on ne fait pas dans la demi - mesure.Le style, c’est bien, mais avec un impact environnemental négatif ? Pas question.Notre objectif : allier mode et responsabilité en mettant en place des actions concrètes pour réduire à zéro notre empreinte carbone.Prêts à découvrir comment on y arrive ? On vous dit tout!`,
+            `1. **Des matières premières éco-responsables**  
+            Tout commence par le choix des matériaux. Chez Clicketpaf, 100 % de nos t-shirts sont fabriqués à partir de coton biologique certifié GOTS. Ce label garantit des pratiques agricoles durables et une réduction drastique de l’utilisation d’eau. En prime, nos partenaires s’assurent que chaque étape de la production respecte des normes éthiques et sociales strictes. Résultat : des vêtements aussi bons pour votre peau que pour la planète.`,
+
+            `2. **Une production locale et éthique**  
+            Adieu les longs trajets en cargo ! Nos ateliers de production sont situés au plus près de nos clients. Travailler en local nous permet de réduire drastiquement les émissions liées au transport et de soutenir l’économie de proximité. Chaque t-shirt Clicketpaf est conçu dans des conditions respectueuses des travailleurs, avec une rémunération juste et des conditions de travail exemplaires.`,
+
+            `3. **Des emballages zéro plastique**  
+            Qui a besoin de plastique quand le carton recyclable existe ? Nos produits sont livrés dans des emballages minimalistes et compostables. Un petit geste qui fait une grande différence pour limiter la pollution des océans et des sols. Et si vous avez des idées pour aller encore plus loin, on est tout ouïes !`,
+
+            `4. **Neutralité carbone grâce à la compensation**  
+            Malgré tous nos efforts, certaines émissions de CO₂ sont inévitables. Pas de panique : nous compensons chaque gramme de carbone émis en soutenant des projets écologiques certifiés. Plantation d’arbres, protection de forêts existantes, développement des énergies renouvelables… Chaque commande que vous passez contribue à ces initiatives. Parce que la mode doit aussi être un moteur de changement positif.`,
+
+            `5. **Des produits pensés pour durer**  
+            La fast fashion, ce n’est pas notre truc. Chez Clicketpaf, on préfère des vêtements de qualité, faits pour durer. Des tissus résistants, des coutures solides, des designs intemporels : tout est pensé pour que vous puissiez profiter longtemps de vos achats, sans avoir besoin de renouveler votre garde-robe tous les six mois. C’est à la fois bon pour vous et pour la planète.`,
+
+            `6. **Un lavage plus vert**  
+            On vous l’a déjà dit : prolonger la vie de vos vêtements passe aussi par leur entretien. Privilégiez un lavage à basse température avec une lessive écologique, et évitez le sèche-linge autant que possible. En suivant ces astuces, vous réduirez non seulement votre consommation d’énergie, mais aussi votre impact environnemental.`,
+
+            `7. **Un futur 100 % circulaire**  
+            Notre prochain objectif ? Le recyclage à grande échelle. Nous travaillons sur des solutions innovantes pour récupérer vos anciens t-shirts et leur donner une seconde vie. Transformés en nouveaux textiles ou réutilisés dans d’autres industries, rien ne se perd, tout se transforme. On vous tient au courant des avancées, promis !`,
+
+            `Avec Clicketpaf, vous avez la certitude de porter des vêtements qui ont du style et du sens. Alors, prêts à rejoindre notre mouvement pour une mode responsable ? Chaque petit geste compte, et avec vous, on est persuadés qu’on peut faire une grande différence. Ensemble, habillons demain !`,
+        ],
+    },
 ]
