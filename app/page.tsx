@@ -59,7 +59,7 @@ export default function Home() {
                 </div>
                 <h2 className="text-2xl font-bold mb-4 ">A propos</h2>
                 <p className="mb-4 leading-loose">
-                    {`Lancée en 2022 par Léo et Thomas, Clicketpaf propose des vêtements en édition limitée inspirés des tendances et de l’actualité streetwear. Chaque pièce capture l’essence du moment et s’adresse à ceux qui recherchent un style unique et authentique.`}
+                    {`Lancée en 2022 par Léo et Thomas, Clicketpaf propose des vêtements en édition limitée inspirés des tendances et de l’actualité. Chaque pièce capture l’essence du moment et s’adresse à ceux qui recherchent un style unique et authentique.`}
                 </p>
                 <p className="mb-4 leading-loose">
                     {`Axée sur l’originalité et la qualité, Clicketpaf privilégie le Made in France et des matériaux durables pour allier mode et responsabilité. Nos collections reflètent une vision urbaine et moderne, conçue pour une génération en quête de nouveauté et de sens.`}
@@ -79,7 +79,7 @@ export default function Home() {
             </section>
 
             <section className="w-full mb-12 p-8 rounded-3xl shadow-md bg-amber-100/35">
-                <h2 className="text-2xl font-bold mb-4 text-center">Produits</h2>
+                <h2 className="text-2xl font-bold mb-4 text-center">Notre dernière collection</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {products.map((product) => (
                         <ProductCard

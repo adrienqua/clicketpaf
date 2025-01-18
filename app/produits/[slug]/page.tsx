@@ -34,8 +34,8 @@ export default async function ProductDetails({ params }: { params: Promise<{ slu
                 <div className="flex  gap-12 rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8">
                     <div className="w-3/5">
                         <Image
-                            src="/img/clicketpaf_logo_large.jpg"
-                            alt="Histoire de Clicketpaf"
+                            src={product.imageUrl}
+                            alt={product.imageAlt || product.name}
                             width={600}
                             height={400}
                             className="rounded-lg w-full"
