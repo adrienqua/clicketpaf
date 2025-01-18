@@ -14,9 +14,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-    title: "Clicketpaf - Vêtements pour Homme et Accessoires de Mode",
+    title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
     description:
-        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
+        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
     keywords: [
         "clicketpaf",
         "click & paf",
@@ -37,30 +37,30 @@ export const metadata: Metadata = {
     ],
     robots: "index, follow",
     openGraph: {
-        title: "Clicketpaf - Vêtements pour homme et Accessoires de Mode",
+        title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
         description:
-            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
+            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - Vêtements pour homme et accessoires de mode",
+                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode homme",
             },
         ],
         type: "website",
         url: "https://clicketpaf.store",
     },
     twitter: {
-        title: "Clicketpaf - Vêtements pour homme et Accessoires de Mode",
+        title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
         description:
-            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
+            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - Vêtements pour homme et accessoires de mode",
+                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode homme",
             },
         ],
         card: "summary_large_image",
