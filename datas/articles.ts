@@ -22,6 +22,7 @@ export const articlesDatas = [
             et paf : adoptez François Bayrou dans votre dressing ou votre cuisine, avant qu’il ne soit trop tard
             !`,
         ],
+        featuredProduct: "t-shirt-francois-bayrou",
     },
     {
         id: 2,

@@ -103,6 +103,7 @@ export default function Home() {
                             imageUrl={article.mainImg}
                             imageAlt={article.mainImgAlt}
                             slug={article.slug}
+                            category={article.category}
                             description={article.content[0]}
                             key={article.id}
                         />

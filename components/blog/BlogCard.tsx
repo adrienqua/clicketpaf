@@ -7,12 +7,13 @@ interface BlogCardProps {
     imageUrl: string
     imageAlt?: string
     slug: string
+    category: string
     description: string
 }
 
-export default function BlogCard({ title, imageUrl, imageAlt, slug, description }: BlogCardProps) {
+export default function BlogCard({ title, imageUrl, imageAlt, slug, category, description }: BlogCardProps) {
     return (
-        <Link href={`blog/${slug}`} className="" rel="canonical">
+        <Link href={`blog/${category}/${slug}`} className="" rel="canonical">
             <article>
                 <Image
                     src={imageUrl}
@@ -25,7 +26,7 @@ export default function BlogCard({ title, imageUrl, imageAlt, slug, description 
                     <h2 className="font-semibold text-lg leading-tight mb-2 leading-relaxed">{title}</h2>
                     <p className="line-clamp-3  text-base leading-relaxed">{description}</p>
                 </div>
-                <Link href={`blog/${slug}`} className="text-indigo-600 hover:underline" rel="canonical">
+                <Link href={`blog/${category}/${slug}`} className="text-indigo-600 hover:underline" rel="canonical">
                     Lire plus
                 </Link>
             </article>
