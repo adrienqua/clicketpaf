@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-    title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
+    title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
     description:
         "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
     keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     ],
     robots: "index, follow",
     openGraph: {
-        title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
+        title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
         description:
             "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode homme",
+                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode Homme",
             },
         ],
         type: "website",
         url: "https://clicketpaf.store",
     },
     twitter: {
-        title: "Clicketpaf - T-shirts, Sweats et Accessoires de Mode homme",
+        title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
         description:
             "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
         images: [
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
                 url: "/img/clicketpaf_logo_medium.jpg",
                 width: 600,
                 height: 400,
-                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode homme",
+                alt: "Click & Paf - T-shirts, Sweats et accessoires de mode Homme",
             },
         ],
         card: "summary_large_image",
