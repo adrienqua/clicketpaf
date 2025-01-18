@@ -23,21 +23,6 @@ export const metadata: Metadata = {
         "mode éthique",
         "vêtements Made in France",
     ],
-    openGraph: {
-        title: "Clicketpaf – Mode Urbaine et Édition Limitée",
-        description:
-            "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
-        images: ["/img/clicketpaf_logo_large.jpg"],
-        type: "website",
-        url: "https://clicketpaf.store",
-    },
-    twitter: {
-        title: "Clicketpaf – Mode Urbaine et Édition Limitée",
-        description:
-            "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
-        images: ["/img/clicketpaf_logo_large.jpg"],
-        card: "summary_large_image",
-    },
 }
 
 export default function Home() {
