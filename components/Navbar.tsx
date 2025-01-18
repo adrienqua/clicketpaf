@@ -43,6 +43,9 @@ const Navbar = () => {
                             <Link href="/blog" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Blog
                             </Link>
+                            <Link href="/application_mobile" className=" text-gray-800 hover:text-indigo-600 font-medium">
+                                Application
+                            </Link>
                             <Link href="/contact" className=" text-gray-800 hover:text-indigo-600 font-medium">
                                 Contact
                             </Link>
