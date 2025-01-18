@@ -2,11 +2,12 @@ import Image from "next/image"
 
 import type { Metadata } from "next"
 import Link from "next/link"
+import { articlesDatas } from "@/datas/articles"
+import { productsDatas } from "@/datas/products"
+import BlogCard from "@/components/blog/BlogCard"
+import ProductCard from "@/components/products/ProductCard"
 
 export const metadata: Metadata = {
-    title: "Clicketpaf – Mode Urbaine et Édition Limitée",
-    description:
-        "Clicketpaf propose des vêtements tendance, en édition limitée, inspirés par l’actualité et la culture streetwear. Découvrez nos collections exclusives de t-shirts, sweats et accessoires.",
     keywords: [
         "mode urbaine",
         "édition limitée",
@@ -22,7 +23,6 @@ export const metadata: Metadata = {
         "mode éthique",
         "vêtements Made in France",
     ],
-    robots: "index, follow",
     openGraph: {
         title: "Clicketpaf – Mode Urbaine et Édition Limitée",
         description:
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
 export default function Home() {
     const articles = articlesDatas
     const products = productsDatas.filter((product) => product.isFeatured)
+
     return (
         <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
             <section className="rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8 ">
@@ -56,7 +57,7 @@ export default function Home() {
                         className="rounded-lg mb-8"
                     />
                 </div>
-                <h2 className="text-2xl font-bold mb-4 ">Notre histoire</h2>
+                <h2 className="text-2xl font-bold mb-4 ">A propos</h2>
                 <p className="mb-4 leading-loose">
                     {`Lancée en 2022 par Léo et Thomas, Clicketpaf propose des vêtements en édition limitée inspirés des tendances et de l’actualité streetwear. Chaque pièce capture l’essence du moment et s’adresse à ceux qui recherchent un style unique et authentique.`}
                 </p>
@@ -70,10 +71,26 @@ export default function Home() {
                 <div className="text-center mt-6">
                     <Link
                         className="rounded-2xl border text-indigo-600 border-indigo-600/70 px-3 py-2 hover:text-white hover:bg-indigo-600 font-medium  transition duration-300 hover:scale-110"
-                        href="/histoire"
+                        href="/a-propos"
                     >
                         Voir plus
                     </Link>
+                </div>
+            </section>
+
+            <section className="w-full mb-12 p-8 rounded-3xl shadow-md bg-amber-100/35">
+                <h2 className="text-2xl font-bold mb-4 text-center">Produits</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {products.map((product) => (
+                        <ProductCard
+                            name={product.name}
+                            slug={product.slug}
+                            price={product.price}
+                            imageUrl={product.imageUrl}
+                            imageAlt={product.imageAlt}
+                            key={product.id}
+                        />
+                    ))}
                 </div>
             </section>
 
@@ -153,23 +170,23 @@ export default function Home() {
                 <h2 className="text-2xl font-bold mb-4 text-center">Ce que nos clients disent de nous</h2>
                 <div className="flex flex-col md:flex-row gap-4 justify-center">
                     <div className="rounded-lg w-full md:w-1/3 ">
-                        <p className="italic">
+                        <blockquote className="italic">
                             {`"J'ai acheté un t-shirt de la dernière collection et je suis tellement content de mon achat
                             ! Qualité au top et design unique."`}
-                        </p>
-                        <p className="font-semibold mt-2">- Maxime D.</p>
+                        </blockquote>
+                        <figcaption className="font-semibold mt-2">- Maxime D.</figcaption>
                     </div>
                     <div className="rounded-lg w-full md:w-1/3 ">
-                        <p className="italic">
+                        <blockquote className="italic">
                             {`"La livraison a été rapide, et le service client est super réactif. Je recommande à 100% !"`}
-                        </p>
-                        <p className="font-semibold mt-2">- Clara M.</p>
+                        </blockquote>
+                        <figcaption className="font-semibold mt-2">- Clara M.</figcaption>
                     </div>
                     <div className="rounded-lg w-full md:w-1/3 ">
-                        <p className="italic">
-                            {`"Les collections en édition limitée sont vraiment cool, j'ai hâte de voir les prochaines !"`}
-                        </p>
-                        <p className="font-semibold mt-2">- Thomas L.</p>
+                        <blockquote className="italic">
+                            {`"Les collections en édition limitée sont vraiment top, le t-shirt François Bayrou me fume de rire !!! J'ai hâte de voir les prochaines collabs !"`}
+                        </blockquote>
+                        <figcaption className="font-semibold mt-2">- Thomas L.</figcaption>
                     </div>
                 </div>
             </section>

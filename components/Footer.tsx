@@ -10,6 +10,16 @@ const Footer = () => {
                 className="flex flex-col md:flex-row justify-center gap-8 mb-4"
             >
                 <div>
+                    <h2 className="font-medium">Application mobile</h2>
+                    <ul className="flex gap-4 justify-center">
+                        <li>
+                            <Link href="/application_mobile" className=" text-amber-800/80 hover:text-amber-800">
+                                Application
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div>
                     <h2 className="font-medium">Réseaux sociaux</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
@@ -57,7 +67,7 @@ const Footer = () => {
                     <h2 className="font-medium">A propos</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
-                            <Link href="/histoire" className=" text-amber-800/80 hover:text-amber-800">
+                            <Link href="/a-propos" className=" text-amber-800/80 hover:text-amber-800">
                                 Notre histoire
                             </Link>
                         </li>

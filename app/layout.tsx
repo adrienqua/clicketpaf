@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
     title: "Clicketpaf - Vêtements pour Homme et Accessoires de Mode",
     description:
-        "Gardez le style avec Clicketpaf. Collaborations exclusives en édition limitée. Made in France, Zéro impact carbone, Paiement sécurisé et Livraison offerte dès 50€.",
+        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives en édition limitée, inspirées de l'actualité et des dernières tendances.",
     keywords: [
         "clicketpaf",
         "click & paf",
@@ -78,7 +78,7 @@ export default function RootLayout({
                 className={`${poppins.className} ${montserrat.variable} antialiased bg-amber-50/60 min-h-screen flex flex-col`}
             >
                 <Navbar />
-                <main className="mt-32 flex-grow">{children}</main>
+                <div className="mt-32 flex-grow">{children}</div>
                 <Footer />
             </body>
             <GoogleAnalytics gaId="G-9MY3MYGXL9" />
