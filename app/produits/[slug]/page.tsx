@@ -91,7 +91,7 @@ export default async function ProductDetails({ params }: { params: Promise<{ slu
                 <section className="w-full mb-12 p-8 rounded-3xl shadow-md bg-amber-100/35 flex flex-col items-center max-w-[1200px] mx-auto">
                     <h2 className="text-2xl font-bold mb-4 text-center">Les clients ont aussi regardés</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        {products.map((product: any) => (
+                        {products.map((product) => (
                             <ProductCard
                                 name={product.name}
                                 slug={product.slug}
