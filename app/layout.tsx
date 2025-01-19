@@ -81,7 +81,7 @@ export default function RootLayout({
                 <div className="mt-32 flex-grow">{children}</div>
                 <Footer />
             </body>
-            <GoogleAnalytics gaId="G-9MY3MYGXL9" />
+            <GoogleAnalytics gaId="G-9MY3MYGXL9" nonce="googleAnalytics" />
         </html>
     )
 }
