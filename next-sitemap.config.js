@@ -1,7 +1,18 @@
-// Read the products data from the JSON file using fs
 import { productsDatas } from "./datas/products.js"
 import { articlesDatas } from "./datas/articles.js"
-// Export the products data
+
+import fs from "fs"
+import path from "path"
+
+const getLastModifiedDate = (filePath) => {
+    try {
+        const stats = fs.statSync(filePath)
+        return stats.mtime.toISOString()
+    } catch (error) {
+        console.error("Error retrieving file stats for", filePath, error)
+        return null
+    }
+}
 
 /** @type {import('next-sitemap').IConfig} */
 const sitemap = {
@@ -9,45 +20,48 @@ const sitemap = {
     generateRobotsTxt: true,
     priority: 1,
 
-    transform: async (config, path) => {
+    transform: async (config, pagePath) => {
         let changefreq = "monthly"
         let priority = 0.7
 
-        if (path === "/") {
+        console.log("PAAAAAAAAAAAAAAAAATH", pagePath)
+
+        const splitPath = pagePath.split("/")
+        const filePath = path.join(process.cwd(), "app", splitPath[0], splitPath[1], "page.tsx")
+
+        const lastModified = getLastModifiedDate(filePath)
+
+        console.log("LAST MODIFIED", lastModified)
+
+        if (pagePath === "/") {
             changefreq = "daily"
             priority = 1
         }
 
-        if (path.startsWith("/blog") || path.startsWith("/produits")) {
+        if (pagePath.startsWith("/blog") || pagePath.startsWith("/produits")) {
             changefreq = "daily"
             priority = 0.9
         }
 
         return {
-            loc: path,
+            loc: pagePath,
             changefreq,
             priority,
-            autoLastmod: true,
+            lastmod: lastModified,
         }
     },
-    rawPassword: yup
-        .string()
-        .min(12, "Le mot de passe doit contenir au moins 12 caractères.")
-        .matches(
-            /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&^#~_+-=])[A-Za-z\d@$!%?&^#~_+-=]*$/,
-            "Le mot de passe doit contenir au moins 12 caractères, une lettre minuscule, une lettre majuscule, un chiffre, et un caractère spécial."
-        )
-        .required(),
+
     additionalPaths: async (config) => {
         const products = productsDatas.map((product) => ({
             loc: `/produits/${product.slug}`,
             changefreq: "daily",
             priority: 0.9,
+            lastmod: new Date().toISOString(),
         }))
         const articles = articlesDatas.map((article) => ({
             loc: `/blog/${article.category}/${article.slug}`,
             changefreq: "daily",
-            priority: 0.9,
+            lastmod: new Date().toISOString(),
         }))
 
         return [...products, ...articles]
