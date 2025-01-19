@@ -27,9 +27,17 @@ const sitemap = {
             loc: path,
             changefreq,
             priority,
+            autoLastmod: true,
         }
     },
-
+    rawPassword: yup
+        .string()
+        .min(12, "Le mot de passe doit contenir au moins 12 caractères.")
+        .matches(
+            /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&^#~_+-=])[A-Za-z\d@$!%?&^#~_+-=]*$/,
+            "Le mot de passe doit contenir au moins 12 caractères, une lettre minuscule, une lettre majuscule, un chiffre, et un caractère spécial."
+        )
+        .required(),
     additionalPaths: async (config) => {
         const products = productsDatas.map((product) => ({
             loc: `/produits/${product.slug}`,

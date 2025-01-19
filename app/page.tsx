@@ -53,7 +53,7 @@ export default function Home() {
                     {`Plus qu’une marque, Clicketpaf s’engage pour des causes qui comptent. En choisissant nos créations, vous soutenez un projet qui mêle style, éthique et impact positif.`}
                 </p>
 
-                <div className="text-center mt-6">
+                <div className="text-center mt-10 mb-2">
                     <Link
                         className="rounded-2xl border text-indigo-600 border-indigo-600/70 px-3 py-2 hover:text-white hover:bg-indigo-600 font-medium  transition duration-300 hover:scale-110"
                         href="/a-propos"
@@ -77,6 +77,14 @@ export default function Home() {
                         />
                     ))}
                 </div>
+                <div className="text-center mt-10 mb-2">
+                    <Link
+                        className="rounded-2xl border text-indigo-600 border-indigo-600/70 px-3 py-2 hover:text-white hover:bg-indigo-600 font-medium  transition duration-300 hover:scale-110"
+                        href="/produits"
+                    >
+                        Tous nos produits
+                    </Link>
+                </div>
             </section>
 
             <section className="mb-12 p-8 rounded-3xl shadow-md bg-amber-100/35">
@@ -93,6 +101,14 @@ export default function Home() {
                             key={article.id}
                         />
                     ))}
+                </div>
+                <div className="text-center mt-10 mb-2">
+                    <Link
+                        className="rounded-2xl border text-indigo-600 border-indigo-600/70 px-3 py-2 hover:text-white hover:bg-indigo-600 font-medium  transition duration-300 hover:scale-110"
+                        href="/blog"
+                    >
+                        Toute l'actualité
+                    </Link>
                 </div>
             </section>
 

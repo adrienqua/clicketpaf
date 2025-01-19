@@ -3,7 +3,7 @@ import Image from "next/image"
 import { productsDatas } from "@/datas/products"
 
 export const metadata: Metadata = {
-    title: "Clicketpaf - T-shirt François Bayrou",
+    title: "T-shirt François Bayrou - Clicketpaf",
     description:
         "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
     keywords: [
@@ -19,6 +19,33 @@ export const metadata: Metadata = {
         "produits",
         "édition limitée",
     ],
+    openGraph: {
+        title: "T-shirt François Bayrou - Clicketpaf",
+        description:
+            "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
+        images: [
+            {
+                url: "/img/t-shirt-francois-bayrou.png",
+                width: 600,
+                height: 400,
+                alt: "T-shirt François Bayrou premier ministre",
+            },
+        ],
+    },
+    twitter: {
+        title: "T-shirt François Bayrou - Clicketpaf",
+        description:
+            "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
+        images: [
+            {
+                url: "/img/t-shirt-francois-bayrou.png",
+                width: 600,
+                height: 400,
+                alt: "T-shirt François Bayrou premier ministre",
+            },
+        ],
+        card: "summary_large_image",
+    },
 }
 
 export default async function ProductDetails({ params }: { params: Promise<{ slug: string }> }) {
