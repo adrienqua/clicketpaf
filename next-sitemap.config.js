@@ -18,6 +18,8 @@ const getLastModifiedDate = (filePath) => {
 const sitemap = {
     siteUrl: process.env.SITE_URL || "http://localhost:3000",
     generateRobotsTxt: true,
+    sitemapSize: 7000,
+    generateIndexSitemap: false,
     priority: 1,
 
     transform: async (config, pagePath) => {
