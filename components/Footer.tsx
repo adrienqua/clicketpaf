@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <footer className="w-full text-center p-4 bg-amber-100/80 text-amber-800/80 mt-8" role="contentinfo">
+        <footer className="w-full text-center p-4 bg-amber-100/80 text-amber-800/85 mt-8" role="contentinfo">
             <nav
                 role="navigation"
                 aria-label="Footer navigation"
@@ -13,7 +13,7 @@ const Footer = () => {
                     <h2 className="font-medium">Application mobile</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
-                            <Link href="/application_mobile" className=" text-amber-800/80 hover:text-amber-800">
+                            <Link href="/application_mobile" className=" text-amber-800/85 hover:text-amber-800">
                                 Application
                             </Link>
                         </li>
@@ -26,7 +26,7 @@ const Footer = () => {
                             <Link
                                 target="_blank"
                                 href="https://x.com/clicketpaf"
-                                className=" text-amber-800/80 hover:text-amber-800"
+                                className=" text-amber-800/85 hover:text-amber-800"
                             >
                                 <span className="sr-only">Twitter</span>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ const Footer = () => {
                             <Link
                                 target="_blank"
                                 href="https://instagram.com/clicketpaf"
-                                className=" text-amber-800/80 hover:text-amber-800"
+                                className=" text-amber-800/85 hover:text-amber-800"
                             >
                                 <span className="sr-only">Instagram</span>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -57,7 +57,7 @@ const Footer = () => {
                     <h2 className="font-medium">Actualité</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
-                            <Link href="/blog" className=" text-amber-800/80 hover:text-amber-800">
+                            <Link href="/blog" className=" text-amber-800/85 hover:text-amber-800">
                                 blog
                             </Link>
                         </li>
@@ -67,7 +67,7 @@ const Footer = () => {
                     <h2 className="font-medium">A propos</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
-                            <Link href="/a-propos" className=" text-amber-800/80 hover:text-amber-800">
+                            <Link href="/a-propos" className=" text-amber-800/85 hover:text-amber-800">
                                 Notre histoire
                             </Link>
                         </li>
@@ -77,7 +77,7 @@ const Footer = () => {
                     <h2 className="font-medium">Nous contacter</h2>
                     <ul className="flex gap-4 justify-center">
                         <li>
-                            <Link href="/contact" className=" text-amber-800/80 hover:text-amber-800">
+                            <Link href="/contact" className=" text-amber-800/85 hover:text-amber-800">
                                 Contact
                             </Link>
                         </li>
@@ -89,7 +89,7 @@ const Footer = () => {
                     <li>
                         <Link
                             href="/conditions-generales-vente"
-                            className=" text-amber-800/80 hover:text-amber-800"
+                            className=" text-amber-800/85 hover:text-amber-800"
                             title="Conditions générales de vente"
                         >
                             CGV
@@ -98,7 +98,7 @@ const Footer = () => {
                     <li>
                         <Link
                             href="/mentions-legales"
-                            className=" text-amber-800/80 hover:text-amber-800"
+                            className=" text-amber-800/85 hover:text-amber-800"
                             title="Mentions légales"
                         >
                             Mentions légales
@@ -107,7 +107,7 @@ const Footer = () => {
                     <li>
                         <Link
                             href="/confidentialite"
-                            className=" text-amber-800/80 hover:text-amber-800"
+                            className=" text-amber-800/85 hover:text-amber-800"
                             title="Confidentialité"
                         >
                             Confidentialité
