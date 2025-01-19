@@ -26,9 +26,9 @@ export default function BlogCard({ title, imageUrl, imageAlt, slug, category, de
                     <h2 className="font-semibold text-lg leading-tight mb-2 leading-relaxed">{title}</h2>
                     <p className="line-clamp-3  text-base leading-relaxed">{description}</p>
                 </div>
-                <Link href={`blog/${category}/${slug}`} className="text-indigo-600 hover:underline" rel="canonical">
+                <p className="text-indigo-600 hover:underline" rel="canonical">
                     Lire plus
-                </Link>
+                </p>
             </article>
         </Link>
     )
