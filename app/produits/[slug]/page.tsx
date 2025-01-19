@@ -51,6 +51,7 @@ export const metadata: Metadata = {
 export default async function ProductDetails({ params }: { params: Promise<{ slug: string }> }) {
     const slug = (await params).slug
     const product = productsDatas.find((product) => product.slug === slug)
+
     return (
         product && (
             <article
