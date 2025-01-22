@@ -33,7 +33,8 @@ export default function Home() {
         <main className="flex flex-col container mx-auto items-center justify-center min-h-screen max-w-[800px] px-4">
             <section className="rounded-3xl shadow-md bg-amber-100/35  p-8 mb-8 ">
                 <div className="flex flex-col items-center">
-                    <h1 className="text-3xl font-bold mb-4">Clicketpaf</h1>
+                    <h1 className="text-3xl font-bold mb-2">Clicketpaf</h1>
+                    <p className="text-lg font-medium text-gray-600 mb-10">La mode qui bouge au rythme de l’actu !</p>
                     <Image
                         src="/img/clicketpaf_logo_large.jpg"
                         alt="Histoire de Clicketpaf"
@@ -44,13 +45,13 @@ export default function Home() {
                 </div>
                 <h2 className="text-2xl font-bold mb-4 ">A propos</h2>
                 <p className="mb-4 leading-loose">
-                    {`Lancée en 2022 par Léo et Thomas, Clicketpaf propose des vêtements en édition limitée inspirés des tendances et de l’actualité. Chaque pièce capture l’essence du moment et s’adresse à ceux qui recherchent un style unique et authentique.`}
+                    {`Chez Clicketpaf, on conçoit des vêtements fun et originaux, directement inspirés des tendances et événements marquants. Chaque collection est unique, produite en séries limitées, pour offrir des pièces qui racontent une histoire. Nos créations s’adressent à ceux qui veulent porter du style tout en revendiquant une pointe d’humour et d’audace.`}
                 </p>
                 <p className="mb-4 leading-loose">
-                    {`Axée sur l’originalité et la qualité, Clicketpaf privilégie le Made in France et des matériaux durables pour allier mode et responsabilité. Nos collections reflètent une vision urbaine et moderne, conçue pour une génération en quête de nouveauté et de sens.`}
+                    {`Notre promesse : qualité française et respect de la planète. Tous nos vêtements sont fabriqués en France, avec un soin particulier pour garantir durabilité et confort. En plus, chaque étape de production est pensée pour minimiser notre impact écologique. On est fiers d’afficher un bilan carbone neutre, parce que la mode ne doit pas coûter cher à la planète.`}
                 </p>
                 <p className="mb-4 leading-loose mb-4">
-                    {`Plus qu’une marque, Clicketpaf s’engage pour des causes qui comptent. En choisissant nos créations, vous soutenez un projet qui mêle style, éthique et impact positif.`}
+                    {`Clicketpaf, c’est une mode engagée et pleine de caractère. Porter nos pièces, c’est affirmer votre style tout en soutenant une démarche locale et responsable. Avec nous, vous ne suivez pas la mode, vous la créez. Alors, prêt à passer au niveau supérieur ?`}
                 </p>
 
                 <div className="text-center mt-10 mb-2">

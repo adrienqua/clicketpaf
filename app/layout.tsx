@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
     title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
     description:
-        "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
+        "Notre boutique en ligne de vêtements et accessoires masculins. Découvrez nos nouvelles collections exclusives, éco-responsables et fabriquées en France.",
     keywords: [
         "clicketpaf",
         "click & paf",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
         description:
-            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
+            "Notre boutique en ligne de vêtements et accessoires masculins. Découvrez nos nouvelles collections exclusives, éco-responsables et fabriquées en France.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     twitter: {
         title: "Clicketpaf - T-shirts, Sweats et Accessoires de mode Homme",
         description:
-            "Renouvelez votre garde-robe avec style grâce à Clicketpaf. Découvrez nos collaborations exclusives de vêtements en édition limitée, inspirées de l'actualité et des dernières tendances.",
+            "Notre boutique en ligne de vêtements et accessoires masculins. Découvrez nos nouvelles collections exclusives, éco-responsables et fabriquées en France.",
         images: [
             {
                 url: "/img/clicketpaf_logo_medium.jpg",
