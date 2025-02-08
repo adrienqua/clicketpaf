@@ -3,54 +3,44 @@ import Image from "next/image"
 import { productsDatas } from "@/datas/products"
 import ProductCard from "@/components/products/ProductCard"
 
-export const metadata: Metadata = {
-    title: "T-shirt François Bayrou - Clicketpaf",
-    description:
-        "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
-    keywords: [
-        "clicketpaf",
-        "click & paf",
-        "click",
-        "paf",
-        "mode",
-        "tendances",
-        "style",
-        "paf le chien",
-        "drops",
-        "produits",
-        "édition limitée",
-    ],
-    openGraph: {
-        title: "T-shirt François Bayrou - Clicketpaf",
-        description:
-            "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
-        images: [
-            {
-                url: "/img/t-shirt-francois-bayrou.png",
-                width: 600,
-                height: 400,
-                alt: "T-shirt François Bayrou premier ministre",
-            },
-        ],
-    },
-    twitter: {
-        title: "T-shirt François Bayrou - Clicketpaf",
-        description:
-            "Affiche ton soutien à François Bayrou avec ce t-shirt 'Premier ministre' ! Un design audacieux pour ceux qui suivent l'actualité de près et aiment porter leur opinion. Confortable, moderne et engagé, il est parfait pour ceux qui veulent marquer l’actualité politique avec style. Soyez au cœur du débat !",
-        images: [
-            {
-                url: "/img/t-shirt-francois-bayrou.png",
-                width: 600,
-                height: 400,
-                alt: "T-shirt François Bayrou premier ministre",
-            },
-        ],
-        card: "summary_large_image",
-    },
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const product = productsDatas.find((product) => product.slug === params.slug)
+    if (!product) {
+        return { title: "Produit non trouvé" }
+    }
+    return {
+        title: `${product.name} - Clicketpaf`,
+        description: product.description,
+        openGraph: {
+            title: `${product.name} - Clicketpaf`,
+            description: product.description,
+            images: [
+                {
+                    url: product.imageUrl,
+                    width: 600,
+                    height: 400,
+                    alt: product.imageAlt || product.name,
+                },
+            ],
+        },
+        twitter: {
+            title: `${product.name} - Clicketpaf`,
+            description: product.description,
+            images: [
+                {
+                    url: product.imageUrl,
+                    width: 600,
+                    height: 400,
+                    alt: product.imageAlt || product.name,
+                },
+            ],
+            card: "summary_large_image",
+        },
+    }
 }
 
-export default async function ProductDetails({ params }: { params: Promise<{ slug: string }> }) {
-    const slug = (await params).slug
+export default async function ProductDetails({ params }: { params: { slug: string } }) {
+    const slug = params.slug
     const product = productsDatas.find((product) => product.slug === slug)
     const products = productsDatas.filter((product) => product.slug !== slug).slice(0, 3)
 
