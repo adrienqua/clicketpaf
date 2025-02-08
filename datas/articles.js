@@ -108,4 +108,19 @@ export const articlesDatas = [
             `N'oubliez pas, chaque article de cette collection exclusive est en édition limitée. Ne manquez pas cette occasion de faire le plein de nouveautés et de découvrir ces créations uniques avant qu'elles ne s'envolent !`,
         ],
     },
+    {
+        id: 5,
+        category: "technologie",
+        slug: "elon-musk-pressenti-rachat-tiktok-clicketpaf",
+        title: "Elon Musk prêt à racheter TikTok ? Clicketpaf enflamme le game avec une collab exclusive !",
+        subtitle: "",
+        mainImg: "/img/elon_musk_tiktok_collab_clicketpaf.jpg",
+        mainImgAlt: "Elon Musk rachète TikTok",
+        content: [
+            `C'est la rumeur qui affole la techosphère : Elon Musk, après avoir mis la main sur Twitter, viserait désormais TikTok ! Le milliardaire fantasque et visionnaire pourrait ajouter l’application chinoise à son empire et, forcément, ça fait parler. Déjà maître des réseaux avec X (ex-Twitter), le patron de Tesla et SpaceX semble prêt à redessiner le paysage numérique mondial.`,
+            `Et chez Clicketpaf, on ne pouvait pas passer à côté d'une telle actu sans marquer le coup. Résultat : une collab exclusive de t-shirts Elon Musk x TikTok, pour tous ceux qui veulent afficher leur passion pour les réseaux sociaux avec style ! Imaginez un tee-shirt "MuskTok" avec la tête du boss en mode viral, ou encore un "DogeTik" fusionnant les mèmes préférés de l’homme d’affaires. Bref, du lourd pour les fans du personnage et du buzz. Mais pourquoi Elon Musk voudrait-il s’emparer de TikTok ? Plusieurs hypothèses circulent : envie de concurrencer encore plus frontalement Meta, volonté de garantir une liberté d’expression totale sur la plateforme, ou simple défi personnel pour imposer sa vision du numérique. Avec lui, impossible de savoir à l’avance, mais une chose est sûre : si cela se concrétise, le monde des réseaux sociaux risque d’être bouleversé.`,
+            `En attendant l’officialisation de cette potentielle acquisition, ne passez pas à côté de notre collection limitée de t-shirts Elon Musk x Clicketpaf. Une occasion unique de porter du visionnaire sur vos épaules et de surfer sur la vague du buzz ! Et comme toujours, dépêchez-vous : les stocks risquent de partir aussi vite qu’un tweet muské !`,
+        ],
+        featuredProduct: "sweat-elon-musk-tiktok",
+    },
 ]

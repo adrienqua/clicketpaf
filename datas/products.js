@@ -13,14 +13,14 @@ export const productsDatas = [
     },
     {
         id: 2,
-        slug: "t-shirt-blanc",
-        name: "T-shirt blanc",
-        subtitle: "",
+        slug: "sweat-elon-musk-tiktok",
+        name: "Sweat Elon Musk x TikTok",
+        subtitle: "Edition limitée Clicketpaf",
         description:
-            "Un t-shirt blanc classique, idéal pour toutes les occasions. Léger, respirant et facile à assortir avec n'importe quelle tenue.",
-        price: 12.9,
-        imageUrl: "/img/t-shirt-francois-bayrou.png",
-        imageAlt: "T-shirt blanc classique",
+            "Affichez votre passion pour les réseaux sociaux avec ce sweat exclusif Elon Musk x TikTok ! Inspiré par la rumeur du rachat de TikTok par Elon Musk, ce design unique fusionne innovation et culture virale. Un incontournable pour les fans de tech et de buzz !",
+        price: 79.9,
+        imageUrl: "/img/sweat-elon-musk-tiktok.jpg",
+        imageAlt: "Sweat exclusif Elon Musk x TikTok",
         isFeatured: true,
     },
     {

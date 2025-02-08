@@ -19,7 +19,7 @@ export default function ProductCard({ name, slug, price, imageUrl, imageAlt }: P
                     alt={imageAlt || name}
                     width={300}
                     height={200}
-                    className="rounded-lg mb-2 w-full"
+                    className="rounded-lg mb-3 w-full aspect-square object-cover"
                 />
                 <div className="px-2">
                     <h2 itemProp="name" className="font-semibold text-lg leading-tight">
