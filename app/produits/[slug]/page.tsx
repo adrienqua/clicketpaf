@@ -1,14 +1,8 @@
-import type { Metadata } from "next"
 import Image from "next/image"
 import { productsDatas } from "@/datas/products"
 import ProductCard from "@/components/products/ProductCard"
 
-export async function generateMetadata({
-    params,
-}: {
-    params: { slug: string }
-    searchParams: { [key: string]: string | string[] }
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }) {
     const product = productsDatas.find((product) => product.slug === params.slug)
     if (!product) {
         return { title: "Produit non trouvé" }
