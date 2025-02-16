@@ -71,10 +71,10 @@ export default async function ProductDetails({ params }: { params: Promise<{ slu
                             <p className="font-semibold">{product.description}</p>
                             <p className="font-normal text-indigo-600 mt-2 mb-6">{product.price.toFixed(2)} €</p>
                             <a
-                                href="/panier"
-                                className="w-full py-2 px-4 border transition-all duration-300 border-indigo-600 text-indigo-600 hover:text-white font-medium rounded-xl hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                href="#"
+                                className={`w-full py-2 px-4 border transition-all duration-300 border-indigo-600 text-indigo-600 hover:text-white font-medium rounded-xl hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ${product?.isOutOfStock ? "cursor-not-allowed opacity-60" : ""}`}
                             >
-                                Ajouter au panier
+                                {product?.isOutOfStock ? "Rupture de stock" : "Ajouter au panier"}
                             </a>
                         </div>
                     </div>

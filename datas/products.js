@@ -10,6 +10,7 @@ export const productsDatas = [
         imageUrl: "/img/t-shirt-francois-bayrou.png",
         imageAlt: "T-shirt François Bayrou premier ministre",
         isFeatured: true,
+        isOutOfStock: true,
     },
     {
         id: 2,
@@ -31,7 +32,7 @@ export const productsDatas = [
         description:
             "T-shirt 100% coton, parfait pour un confort naturel tout au long de la journée. Un choix simple et écologique pour votre garde-robe.",
         price: 19.9,
-        imageUrl: "/img/t-shirt-francois-bayrou.png",
+        imageUrl: "/img/t-shirt5.jpg",
         imageAlt: "T-shirt en coton naturel",
     },
     {
@@ -42,7 +43,7 @@ export const productsDatas = [
         description:
             "Exprimez votre style avec le t-shirt Top Cool, conçu pour un look décontracté et tendance. Confortable et moderne.",
         price: 22.9,
-        imageUrl: "/img/t-shirt-francois-bayrou.png",
+        imageUrl: "/img/t-shirt1.jpg",
         imageAlt: "T-shirt tendance Top Cool",
     },
     {
@@ -53,7 +54,7 @@ export const productsDatas = [
         description:
             "Le t-shirt à manches courtes idéal pour les journées chaudes. Léger, confortable et indispensable pour votre quotidien.",
         price: 14.9,
-        imageUrl: "/img/t-shirt-francois-bayrou.png",
+        imageUrl: "/img/t-shirt2.jpg",
         imageAlt: "T-shirt confortable manches courtes",
     },
     {
@@ -64,7 +65,7 @@ export const productsDatas = [
         description:
             "Adoptez un style écologique avec ce t-shirt 100% coton bio. Doux pour la peau et respectueux de l'environnement.",
         price: 29.9,
-        imageUrl: "/img/t-shirt-francois-bayrou.png",
+        imageUrl: "/img/t-shirt4.jpg",
         imageAlt: "T-shirt en coton bio écologique",
     },
 ]
